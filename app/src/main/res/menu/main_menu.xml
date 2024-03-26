@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:icon="@drawable/lap1"
+        android:title="Настройки"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_pig1"
+        android:orderInCategory="3"
+        android:icon="@drawable/lapp2"
+        android:title="Чиваува!!!"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.EditText"/>
+    <item
+        android:id="@+id/action_pig2"
+        android:orderInCategory="4"
+        android:icon="@drawable/chi2"
+        android:title="Чихуахуа"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_pig3"
+        android:orderInCategory="2"
+        android:icon="@drawable/chi1"
+        android:title="Чиваува"
+        app:showAsAction="ifRoom"/>
+</menu>

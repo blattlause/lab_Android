@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practic_4</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_pig">Свинья</string>
+    <string name="action_pig_two">Хряк</string>
+    <string name="action_pig_three">Боров</string>
+</resources>
